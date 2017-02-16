@@ -38,6 +38,7 @@ public class ApplicationConfig extends Application {
         resources.add(entite.service.UtilisateurFacadeREST.class);
         resources.add(entite.service.UtilisationFacadeREST.class);
         resources.add(entite.service.VehiculeFacadeREST.class);
+        resources.add(filtre.EncodingFilter.class);
     }
     
 }
